@@ -1,11 +1,17 @@
 body{
     margin: 0;
+    text-align: center;
+    background-image:url('sky.jpg');
 }
+
 h1{
     margin: 0;
 }
 .top{
+    padding-top: 100px;
+    position: relative;
     background-color: #E4F9F5;
+
 }
 .middle{
     background-color: red;
@@ -16,4 +22,15 @@ h1{
     background-color: blue;
     height: 200px;
     width: 200px;
+}
+.top_cloud{
+        position: absolute;
+        left: 400px;
+        bottom: 250px;
+}
+.bottom_cloud{
+    position: absolute;
+    right: 450px;;
+    top: 100px;
+
 }
